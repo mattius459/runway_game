@@ -17,8 +17,6 @@ Show us what you've got!
 
 If you don't want to come up with your own game idea, feel free to use one of [ideas](ideas.md) we provide you.
 
-As a reminder, GA has a zero tolerance [plagiarism policy](https://git.generalassemb.ly/sei-424-beherenow/class-info#plagiarism) - your project's code **must be substantially yours**. **Do not copy code from similar projects, tutorials, or other sources**.  However, using  lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. Do not ask ChatGPT to make your game for you ;) 
-
 ---
 
 ## Planning & Presentation Requirements
@@ -124,3 +122,7 @@ We will be using this [evaluation](evaluation.md) guideline to grade your projec
 - Write **DRY (Don't Repeat Yourself)** code. Check for repeating code and refactor into functions that accept arguments.
 
 ---
+
+## Plagarism
+
+As a reminder, GA has a zero tolerance [plagiarism policy](https://git.generalassemb.ly/sei-424-beherenow/class-info#plagiarism) - your project's code **must be substantially yours**. **Do not copy code from similar projects, tutorials, or other sources**.  However, using  lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. Do not ask ChatGPT to make your game for you ;) 
