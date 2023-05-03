@@ -6,15 +6,16 @@
 
 Your first SEI project will start out with something fun - **a game!**
 
-Thanks to the amount of logic there is in a game, there's no better app than a game to teach you how to **think like a programmer**!
+This is an opportunity to **be creative**, and work through some **tough programming challenges**.
 
-Everyone will get a chance to **be creative**, and work through some really **tough programming challenges**.  You got your feet wet with the Tic Tac Toe and Connect Four during class - now it's time to pick your own game and go for it.
+**You will be working individually for this project**, 
+but we'll be guiding you along the process and helping as you go. 
+Show us what you've got!
 
-**You will be working individually for this project**. However, your instructors and instructor assistants will be available for support via Slack.  Please be sure to provide the details of the issue you are having - screenshots and relevant code are very helpful.
+> If you want to choose a game different from what is listed for Project #4 please consult with us!
+> arning - many seemingly simple games are much more complex than you might think!
 
 As a reminder, GA has a zero tolerance [plagiarism policy](https://git.generalassemb.ly/sei-424-beherenow/class-info#plagiarism) - your project's code **must be substantially yours**. **Do not copy code from similar projects, tutorials, or other sources**.  However, using  lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. Do not ask ChatGPT to make your game for you ;) 
-
-Lastly, in addition to presenting your projects, you will be required to complete a Project 1 Assessment (more in a bit).
 
 ---
 
@@ -87,6 +88,8 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ## Necessary Deliverables
 
+We will be using this [evaluation](evaluation.md) guideline to grade your project.
+
 ☐ The code for **a working game that meets or exceeds the above technical requirements, built by you, and hosted on GitHub Pages**.
 
 - **A ``README.md`` file** with these sections:
@@ -117,13 +120,5 @@ You will have a maximum of 10 minutes to present your project following these gu
 - Review and check regularly the [Project 1 Code Review](./project-1-code-review.pdf) to ensure that your project is going to meet the minimum requirements.
 - **Consult documentation and other resources** to better understand methods, etc.
 - Write **DRY (Don't Repeat Yourself)** code. Check for repeating code and refactor into functions that accept arguments.
-
----
-
-## Project Feedback + Evaluation
-
-- Your instructors will be using the [Project 1 Code Review](./project-1-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
-- If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you may request to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
-- If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
 
 ---
