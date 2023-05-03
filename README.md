@@ -107,6 +107,19 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ---
 
+## Suggestions
+
+- **The BEST advice is to follow the guidelines and principles in the** [Guide to Building a Browser App](https://git.generalassemb.ly/sei-424-beherenow/SEI-NYC-424/blob/main/Unit_1/05-programming/5.1-guide-to-building-a-browser-game.md). The guide will give you a step-by-step process to get you started and its MVC design pattern will result in clearer, more concise code that can scale functionality more easily.
+- **Theme your game** to give it a more personal touch and make it more unique!
+- **Use your Development Tools** (Chrome DevTools rock!) to debug and solve issues.
+- Keep it simple. Minimum Viable Product (MVP) functionality that looks great is better than extra functionality added to a game without polish.
+- If you choose a card-based game, there is a CSS library in the _resources_ directory of the class repo that will help you render **beautiful** cards of any size, front and back.
+- Review and check regularly the [Project 1 Code Review](./project-1-code-review.pdf) to ensure that your project is going to meet the minimum requirements.
+- **Consult documentation and other resources** to better understand methods, etc.
+- Write **DRY (Don't Repeat Yourself)** code. Check for repeating code and refactor into functions that accept arguments.
+
+---
+
 ## Project Feedback + Evaluation
 
 - Your instructors will be using the [Project 1 Code Review](./project-1-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
