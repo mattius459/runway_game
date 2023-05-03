@@ -13,7 +13,9 @@ but we'll be guiding you along the process and helping as you go.
 Show us what you've got!
 
 > If you want to choose a game different from what is listed for Project #4 please consult with us!
-> arning - many seemingly simple games are much more complex than you might think!
+> Warning - many seemingly simple games are much more complex than you might think!
+
+If you don't want to come up with your own game idea, feel free to use one of [ideas](ideas.md) we provide you.
 
 As a reminder, GA has a zero tolerance [plagiarism policy](https://git.generalassemb.ly/sei-424-beherenow/class-info#plagiarism) - your project's code **must be substantially yours**. **Do not copy code from similar projects, tutorials, or other sources**.  However, using  lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. Do not ask ChatGPT to make your game for you ;) 
 
