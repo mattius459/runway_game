@@ -1,4 +1,5 @@
 <img src="https://i.imgur.com/QgojyYY.png" width="400">
+<img src="https://media.giphy.com/media/5pHGSivKMsgrm/giphy.gif" width="400">
 
 # Project 1<br>Browser-based Game
 
