@@ -1,7 +1,6 @@
-<img src="https://i.imgur.com/QgojyYY.png" width="400">
-<img src="https://media.giphy.com/media/5pHGSivKMsgrm/giphy.gif" width="800">
+# Project 1 - Browser Game
 
-# Project 1<br>Browser-based Game
+<img src="https://media.giphy.com/media/5pHGSivKMsgrm/giphy.gif" width="800">
 
 ## Overview
 
