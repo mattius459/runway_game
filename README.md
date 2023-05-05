@@ -33,9 +33,9 @@ Use the project [proposal example](project_proposal_example.md) to see what it w
 
 	☐ A wireframe of your at least the "main" game screen. (more wireframes the better)
 
-	☐ User stories
-	<br/>	☐ MVP (Most Viable Project)
-	<br/>	☐ Stretch goals
+	☐ User stories: MVP (Most Viable Project)
+
+	☐ User stories: Stretch goals
 
 ### Presentation - Friday 5/12 @1pm:
 
