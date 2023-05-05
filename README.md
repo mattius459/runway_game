@@ -21,15 +21,21 @@ If you don't want to come up with your own game idea, feel free to use one of [i
 
 ## Planning & Presentation Requirements
 
-### Planning - Due Monday 5/8 @ 9am:
+### Project Proposal - Due Monday 5/8 @ 9am:
+
+Use the project [proposal example](project_proposal_example.md) to see what it would look like.
 
 - You will share:
 
 	☐ Your choice of game.
 
-	☐ A wireframe of your "main" game screen.
+	☐ Project description
 
-	☐ Pseudocode for the overall game play.
+	☐ A wireframe of your at least the "main" game screen. (more wireframes the better)
+
+	☐ User stories
+		☐ MVP (Most Viable Project)
+		☐ Stretch goals
 
 ### Presentation - Friday 5/12 @1pm:
 
@@ -82,7 +88,7 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ☐ **Be coded in a consistent** manner. For example, choose between your preference for function declarations vs. function expressions.
 
-☐ **Be deployed online** using GitHub Pages so that the rest of the world can play your game!
+☐ **Be deployed online** using Netfily so that the rest of the world can play your game!
 
 ---
 
@@ -90,7 +96,7 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 We will be using this [evaluation](evaluation.md) guideline to grade your project.
 
-☐ The code for **a working game that meets or exceeds the above technical requirements, built by you, and hosted on GitHub Pages**.
+☐ The code for **a working game that meets or exceeds the above technical requirements, built by you, and hosted on Netlify**.
 
 - **A ``README.md`` file** with these sections:
 
