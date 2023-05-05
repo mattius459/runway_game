@@ -74,13 +74,11 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ### Your App Must:
 
-☐ **Render a game in the browser**.
-
-☐ **Include win/loss logic and render win/loss messages in HTML.** Popup alerts using the `alert()` method are okay during development, but not production.
+☐ **Render a game in the browser and be a working MVP**.
 
 ☐ Include separate HTML, CSS & JavaScript files.
 
-☐ Have **properly indented HTML, CSS & JavaScript**. In addition, vertical whitespace needs to be consistent.
+☐ Have **properly indented HTML, CSS & JavaScript with consistent coding style**. In addition, vertical whitespace needs to be consistent.
 
 ☐ No remaining **unused and/or commented out code** (code that will never be called).
 
@@ -90,6 +88,8 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ☐ **Be coded in a consistent** manner. For example, choose between your preference for function declarations vs. function expressions.
 
+☐ The code is living in a repository on your personal Github (make sure to name it something other than "project-1")
+
 ☐ **Be deployed online** using Netfily so that the rest of the world can play your game!
 
 ---
@@ -98,7 +98,7 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 We will be using this [evaluation](evaluation.md) guideline to grade your project.
 
-☐ The code for **a working game that meets or exceeds the above technical requirements, built by you, and hosted on Netlify**.
+☐ The code repo for **a working game that meets or exceeds the above technical requirements, and the MVP you've defined in your proposal, built by you, and hosted on Netlify** living in your own Github.
 
 - **A ``README.md`` file** with these sections:
 
@@ -116,7 +116,7 @@ We will be using this [evaluation](evaluation.md) guideline to grade your projec
 
 ☐ **Frequent commits (at least 1 every day) dating back to the very beginning of the project**. Never delete you repo to "start over".  Commit messages should be in the present tense, e.g., "Style game board" instead of "Styled game board". **Be sure to create the repo on your personal GitHub account and ensure that it is "public".** 
 
-☐ A Deployed game to Netlify. Use the Netlify [deployment guide](netlify_deploy.md) to learn how to deploy to Netlify.
+☐ A deployed game to Netlify. Use the Netlify [deployment guide](netlify_deploy.md) to learn how to deploy to Netlify.
 
 ---
 
