@@ -21,7 +21,7 @@ If you don't want to come up with your own game idea, feel free to use one of [i
 Sign up for 15min 1:1's with Emre using [this](https://calendly.com/emre-surmeli/15min?month=2023-05) calendly link
 
 Monday <br/>
-10am - 11am Review hour <br/>
+9am - 12pm Project proposal reviews <br/>
 2-3pm Emre's 1:1 hour <br/>
 
 Tuesday <br/>
