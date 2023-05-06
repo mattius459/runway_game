@@ -18,6 +18,7 @@ Show us what you've got!
 If you don't want to come up with your own game idea, feel free to use one of [ideas](ideas.md) we provide you.
 
 ### **Daily Schedule**
+Sign up for 15min 1:1's with Emre using [this](https://calendly.com/emre-surmeli/15min?month=2023-05) calendly link
 
 Monday <br/>
 10am - 11am Review hour <br/>
