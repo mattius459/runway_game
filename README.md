@@ -17,6 +17,29 @@ Show us what you've got!
 
 If you don't want to come up with your own game idea, feel free to use one of [ideas](ideas.md) we provide you.
 
+### **Daily Schedule**
+
+Monday <br/>
+10am - 11am Review hour <br/>
+2-3pm Emre's 1:1 hour <br/>
+
+Tuesday <br/>
+10am - 11am Review hour <br/>
+2-3pm Emre's 1:1 hour <br/>
+
+Wednesday <br/>
+10am - 11am Review hour <br/>
+2-3pm Emre's 1:1 hour <br/>
+
+Thursday <br/>
+10am - 11am Review hour <br/>
+2-3pm Emre's 1:1 hour <br/>
+
+Friday <br/>
+10am - 11am Review hour <br/>
+1pm Project presentations <br/>
+
+
 ---
 
 ## Planning & Presentation Requirements
