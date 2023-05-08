@@ -2,41 +2,38 @@
 
 ## Project Choice (Tell us which project you're doing!)
 
-- [ ] Flash Cards
-- [ ] Trivia (Self-scoring)
-- [ ] Spaceman
-- [ ] Tower of Hanoi
-- [ ] Simon
+- Personal Finance Trivia
 
-## Project Description 
+## Project Description
 
-My app is called Tic Tac Toe. It's a game app for players who want to play Tic Tac Toe online. Two players can join an online game and play a round of Tic Tac Toe, with the score being kept automatically and game results displayed at then end of a round -- whichever player won, or in the case of a draw, a tie between the users. Users will have the option to play again. In the future, I'd like to add a feature where one player can play against the computer. 
+My app is called "Runway". It is an app for those aspiring to get a better hold on their own personal finances in a way that is personalized, engaging, and informative. In a nutshell, it allows users to input information pertaining to their own financial situation and it computes a "personal financial runway" for them which calculates when they might be able to retire.
 
 ## Wire Frames
 
 **Initial Landing View**
 
-![image](https://media.git.generalassemb.ly/user/21811/files/0f7aee00-c1d9-11ea-9dad-de086a5c91fc)
+![image](https://imgur.com/NxRd0oo)
 
-**Results View**
+**Advanced configurations view**
 
-![image](https://media.git.generalassemb.ly/user/21811/files/1a358300-c1d9-11ea-95da-6c14aefb0f18)
+![image](https://imgur.com/GkL0Pup)
 
 ## User Stories
 
 #### MVP Goals
 
-- As a player, I want my game to recognize three ticks in a row so that I know who won.
-- As a player, I would like to be informed when the game is over due to a tie.
-- As a player, I would like to know whose turn it is so that I don't have to keep track.
-- As a player, I would like to be informed with some indication when I mark a game box so that I know my selection worked.
-- As a player who requires assistive technologies, I would like accessibility features so that I'm not left out of enjoying the game.
-- As a player I would like to be able to restart the game after a win, loss or tie.
-- As a player, I want the UI to be engaging and out of the way so that I enjoy the experience of playing the game.\*\*
+- App allows user to input age, monthly income, monthly spending, and current investments and the app returns a graph for their own runway.
+- In an expandable "advanced configurations" section, users are allowed to adjust many of the default variables.
+- Advanced configs include Expected return on investment accounts, Expected Inflation rate, Expected age to begin drawing from social security, and Life Expectency.
+- In order to unlock the ability to change each of these each of these advanced configs, users must read information about what that particular config does, and then answer a multiple choice question about it.
+- Once that is done, the feature is unlocked and the user is awarded some "points" as well.
+- Points will be displayed in the top right of the main screen.
+- The "unlocking" ability will be made apparent when the user clicks a tooltip next to each advanced config.
+- Use media queries to make the app responsive.
 
 #### Stretch Goals
 
-- As a player, I would like a victory animation when I win the game, so that I feel good about my victory!
-- As a player, I would like to hear an audible sound when I mark a game box so that I know my selection worked.
-- As a player, I would like to play this game online so that I don't have to have my challenger sitting next to me.
-- As a player who wants to dominate the battlefield I want to become the ultimate tic tac toe tactician so I can beat all of my opponents
+- Add in additional advanced configs and the corresponding educational material.
+- Make input fields turn into sliders once the user has inputted for the first time.
+- Make so that when user moves sliders, the chart dynamically changes.
+- Make it more polished looking using various CSS styling.
