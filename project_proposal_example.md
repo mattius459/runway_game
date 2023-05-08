@@ -6,7 +6,7 @@
 
 ## Project Description
 
-My app is called "Runway". It is an app for those aspiring to get a better hold on their own personal finances in a way that is personalized, engaging, and informative. In a nutshell, it allows users to input information pertaining to their own financial situation and it computes a "personal financial runway" for them which calculates when they might be able to retire.
+My app is called "Runway". It is an app for those aspiring to get a better hold on their own personal finances in a way that is personalized, engaging, and educational. In a nutshell, it allows users to input information pertaining to their own financial situation and it computes a "personal financial runway" for them which calculates when they might be able to retire.
 
 ## Wire Frames
 
@@ -31,9 +31,17 @@ My app is called "Runway". It is an app for those aspiring to get a better hold 
 - The "unlocking" ability will be made apparent when the user clicks a tooltip next to each advanced config.
 - Use media queries to make the app responsive.
 
+
+- Each field has trivia that is going to have mulitple chboice questions which, when answered correctly, will award user points, give some sort of badge, and have a "win" state of some kind.
+
+- If user gets certain amount wrong, gets a "try again" message or something like that. Need a "lose" state.
+
+- Maybe make a 'misc trivia' part that doesn't have anything to do with the adv configurations.
+
 #### Stretch Goals
 
 - Add in additional advanced configs and the corresponding educational material.
 - Make input fields turn into sliders once the user has inputted for the first time.
 - Make so that when user moves sliders, the chart dynamically changes.
 - Make it more polished looking using various CSS styling.
+- Cause screen to scroll down when user clicks on the expandable.
