@@ -1,37 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   text-align: left;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 5fr 5fr 1fr;
-  gap: 10px 0px;
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 5fr 1fr;
+  gap: 10px;
+  background-color:  #efeded;
+  /* height: 100vh; */
 }
 
 h1 {
+  font-size: 55px;
   text-align: center;
-  padding: 40px 0px 0px 0px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+#points {
+  text-align: right;
 }
 
 h3 {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
   font-size: 15px;
 }
 
 input {
-  width:35%;
+  width: 36%;
   padding:10px;
+  /* margin: auto 0; */
 }
 
 #age {
-  width: 10%;
+  width: 15%;
 }
 
 #placeholder_runway {
-  padding: 10px 20px 10px 0px;
+  padding: 2px 2px 2px 2px;
   width: 100%;
 }
 
 /* Collapsible button */
 .collapsible {
-  background-color: #eee;
+  background-color: rgb(185, 185, 185);
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -79,16 +97,22 @@ input {
   gap: 16px;
 }
 
+.slider {
+  width: 70%;
+}
+
+.slider-output {
+  font-size: 15px;
+}
 
 
-
-/* Popup container */
+/* Popup Stuff */
 .popup {
   position: relative;
   cursor: pointer;
 }
 
-/* The actual popup */
+/* Popup Stuff */
 .popup .popuptext {
   visibility: hidden;
   width: 300px;
@@ -139,19 +163,12 @@ input {
 
 To do:
 
-Immediate:
+
+Questions:
+
+- How to get the CSS grid to show up in the inspector?
+- Why are the input boxes in top left 
 
 
-- Now that you've shown you can do  most of the functionality here, start cleaning up the architecture of the code.
-
-
-
-Long term:
-
-- Maybe put into flexbox instead of CSS grid?
-- Have sliders appear only after all inputs are set
-- Get text in h3 to change size in accordance with responsiveness so that it never wraps.
-- Get text in h3 to go to bottom of its cell
-- Add first tooltip
 
  */

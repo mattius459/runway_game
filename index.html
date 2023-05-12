@@ -6,30 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Runway</title>
   <link rel="stylesheet" href="style.css">
-  <script defer src="index.js"></script>
-  <script src='https://cdn.plot.ly/plotly-2.20.0.min.js'></script>
 
+  
+  <script defer src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+  <script defer src="index.js"></script>
+  <script defer src="educational_quiz.js"></script>
 </head>
 <body>
 
-  <h1>Runway</h1>
+  <!-- Header and the points display -->
+  <div>
+    <p id="points">Points: <span id="pointsEarned"></span></p>
+    <!-- <div class="relative"> -->
+      <h1>Runway</h1>
+    <!-- </div> -->
+  </div>
+
+  <!-- Text prompting the user -->
   <h3>Enter info to reveal your personal financial runway:</h3>
 
+  <!-- Four user input data fields -->
   <div>
     <input type="text" id="age" class="input" placeholder="Age">
   </div>
   <div id="monthly_income_div">
     <input id="monthly_income" type="text" class="input" placeholder="Monthly Income">
   </div>
-  <input id="monthly_spend" type="text" class="input" placeholder="Monthly Spending">
-  <input type="text" class="input" placeholder="Current Investments"> 
+  <div id="monthly_spend_div">
+    <input id="monthly_spend" type="text" class="input" placeholder="Monthly Spending">
+  </div>
+  <div id="current_investments_div">
+    <input id="current_investments" type="text" class="input" placeholder="Current Investments">
+  </div>
 
-  <div id='plotly_chart'></div> 
-
-
+  <!-- plotly chart-->
+  <!-- <div id='plotly_chart'></div>  -->
   <section id="mainChart"> <img id="placeholder_runway" src="placeholder_runway.png"></section>
 
-
+  <!-- Collapsible advanced configurations-->
   <button class="collapsible">Advanced Configurations</button>
   <div class="content">
     <p>
@@ -37,39 +51,54 @@
       Additional inputs were set to default values below. You may need to adjust those values 
       based on your own expectations.
     </p>
-
-
+    <!-- This is the expected return field-->
     <div>
       Expected return on investment accounts:
-      <div class="input_and_tooltip popup" onclick="tooltip_popup()"> 
+      <div class="input_and_tooltip popup" onclick="tooltip_popup('investment_expected_return_popup')"> 
         <input type="text" id="investment_expected_return" class="input" placeholder="9%" disabled>
         <div class="circle">
           <span class="letter">i</span>
         </div>
-        <span class="popuptext" id="myPopup">This represents the percentage return you expect to get on your assets on an annual basis.
+        <span class="popuptext" id="investment_expected_return_popup">This represents the percentage return you expect to get on your assets on an annual basis.
         In order to unlock this to configure your own expectation, click <a href="expected_return.html">here.</a></span>
       </div>
     </div>
-    <p>
+
+    <div>
       Expected Inflation rate:
-      <br>
-      <input type="text" id="expected_inflation" class="input" placeholder="4%" disabled>
-    </p>
-    <p>
-      Expected retirement age:
-      <br>
-      <input type="text" id="expected_retirement_age" class="input" placeholder="65" disabled>
-    </p>
-    <p>
-      Life Expectency:
-      <br>
-      <input type="text" id="misc" class="input" placeholder="90 years" disabled>
-    </p>
-    <p>
-      ...
-      <br>
-      <input type="text" id="misc" class="input" placeholder="??" disabled>
-    </p>
+      <div class="input_and_tooltip popup" onclick="tooltip_popup('expected_inflation_popup')">
+        <input type="text" id="expected_inflation" class="input" placeholder="4%" disabled>
+        <div class="circle">
+          <span class="letter">i</span>
+        </div>
+        <span class="popuptext" id="expected_inflation_popup">This represents expected inflation rate over your lifetime.
+        In order to unlock this configuration, click <a href="expected_inflation.html">here.</a></span>
+      </div>
+    </div>
+
+    <div>
+      Expected Social Security Age:
+      <div class="input_and_tooltip popup" onclick="tooltip_popup('expected_retirement_popup')">
+        <input type="text" id="expected_retirement" class="input" placeholder="65" disabled>
+        <div class="circle">
+          <span class="letter">i</span>
+        </div>
+        <span class="popuptext" id="expected_retirement_popup">This represents the age which you plan to start drawing social security.
+        In order to unlock this configuration, click <a href="expected_retirement.html">here.</a></span>
+      </div>
+    </div>
+
+    <div>
+      Life Expectancy:
+      <div class="input_and_tooltip popup" onclick="tooltip_popup('life_expectancy_popup')">
+        <input type="text" id="life_expectancy" class="input" placeholder="85" disabled>
+        <div class="circle">
+          <span class="letter">i</span>
+        </div>
+        <span class="popuptext" id="life_expectancy_popup">This represents the age you plan on dying.
+        In order to unlock this configuration, click <a href="life_expectancy.html">here.</a></span>
+      </div>
+    </div>
   </div>
 </body>
 </html>
